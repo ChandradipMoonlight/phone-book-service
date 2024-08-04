@@ -14,8 +14,8 @@ public class ContactDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
-   private String primaryMobNo;
-   private String secMoNo;
-   private String custName;
-   private String emailId;
+    private String primaryMobileNo;
+    private String secondaryMobileNo;
+    private String fullName;
+    private String emailId;
 }

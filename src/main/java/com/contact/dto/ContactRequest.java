@@ -4,8 +4,8 @@ import lombok.Data;
 
 @Data
 public class ContactRequest {
-    private String primaryMobNo;
-    private String secMoNo;
-    private String custName;
+    private String primaryMobileNo;
+    private String secondaryMobileNo;
+    private String fullName;
     private String emailId;
 }
